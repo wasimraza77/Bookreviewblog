@@ -1,0 +1,248 @@
+
+h1{
+	font-family: 'Charmonman', cursive;
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
+
+body{
+	margin:0px;
+	/*height: 100%;*/
+}
+
+nav{
+	margin-bottom: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding-left: 40px;
+}
+.navbar-expand-lg{
+	margin-bottom: 0;
+}
+
+.active{
+	transform: scale(1.5);
+}
+
+#item1,#item2{
+
+}
+
+.still{
+	z-index: 99999;
+	position: fixed;
+  	top: 0;
+  	width: 100%;
+  	/*background-color: black;*/
+}
+
+.abc{
+	width: 5%;
+}
+
+.still + .container-fluid {
+  /*padding-top: 102px;*/
+}
+
+.parallax{
+	color: white;
+	background-image: url('../Images/janko-ferlic-174927-unsplash.jpg');
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 979px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+#div1{
+	font-family: 'Playfair Display', serif;
+	padding-left: 200px;
+	padding-top: 200px;
+	margin-bottom: 50px;
+	font-size: 3em;
+	margin-top: 0;
+}
+
+#intro-div{
+	margin-top: 4%;
+	height: 100%;
+	margin-bottom: 4%;
+}
+
+#intro-topic{
+	font-family: 'Anton', sans-serif;
+	font-size: 3em;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+.intro-main{
+	margin-left: 15%;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 2em;
+}
+
+#my-pic{
+	background-image: url('../Images/mypic.jpg');
+	height: 90%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+@media only screen and (max-device-width: 979px) {
+    #my-pic {
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+    }
+}
+
+#review{
+	background-color: #F2F2F2;
+}
+
+#review-title{
+	color: #525252;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	padding-top: 5%;
+}
+
+hr{
+	background-color: #262626;
+}
+
+#review-name{
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 2%;
+	/*-webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    animation-delay: 3s;*/
+}
+
+#review-content{
+	margin-top: 7%;
+	padding: 0% 15%;
+	font-family: 'Charmonman', cursive;
+	font-size: 2em;
+	text-align: justify;
+	line-height: 2;
+	/*-webkit-animation-name: fadeInRight;
+	animation-name: fadeInRight;
+	animation-duration: 1s;
+	animation-delay: 3s;*/
+}
+
+#img-div{
+	margin-top: 2%;
+	/*width: 300px;
+	height: 350px;*/
+}
+
+#img-div-title{
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 2%;
+}
+
+.caption{
+	text-align: center;
+}
+
+.img-responsive{
+	transition: all 0.5s;
+}
+
+.img-responsive:hover{
+	transform: scale(1.1);
+}
+
+#contact{
+	background-color: #F2F2F2;
+}
+
+#contact-title{
+	margin-left: 20%;
+}
+
+.form-horizontal{
+	margin-top: 6%;
+	padding-left: 30%;
+}
+
+.fa {
+  /*padding: 30px;*/
+  padding-top: 4%;
+  padding-bottom: 6%;
+  font-size: 35px;
+  width: 10%;
+  height: 15%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+    background-color: gray;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-github {
+  background: #4B5058;
+  color: white;
+}
+
+.fa-quora {
+  background: #BD0A00;
+  color: white;
+}
+
+.Hello{
+	color: blue;
+}
+
+footer{
+	margin-top: 1%;
+	height: 2%;
+	background-color: black;
+	color: white;
+}
